@@ -10,4 +10,4 @@ app.get('/panel', function(req,res){
 	res.send('Estas en el panel');
 });
 
-app.listen(3000, () => console.log('El servidor esta en http://localhost:3000'));
+app.listen(process.env.PORT, () => console.log('El servidor esta en http://localhost:3000'));
