@@ -1,10 +1,11 @@
-const express = require('express');
-const app = express();
-
-app.get('/', (req,res) => res.send('Hola mundo!!'));
-
-app.get('/inicio', function(req,res){
-	res.send('Estas en el inicio');
-});
-
-app.listen(3000, () => console.log('El servidor esta en http://localhost:3000'));
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hola mundo</title>
+</head>
+<body>
+    <p>Hola mundo</p>
+</body>
+</html>
