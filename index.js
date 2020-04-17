@@ -9,5 +9,8 @@ app.get('/inicio', function(req,res){
 app.get('/panel', function(req,res){
 	res.send('Estas en el panel');
 });
+app.get('/banco', function(req,res){
+	res.send('Estas en el banco');
+});
 
 app.listen(process.env.PORT, () => console.log('El servidor esta en http://localhost:3000'));
